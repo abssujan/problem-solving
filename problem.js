@@ -38,3 +38,19 @@ const odd_or_even = number => {
 //console.log(result);
 
 // *************************************************************************************
+
+// 3.
+//The clock shows h hours (0 <= h <= 23), m minutes (0 <= m <= 59) and 
+//s seconds (0 <= s <= 59) after midnight. Your task is to write a function 
+//which returns the time since midnight in milliseconds. There are 1,000 milliseconds in a second.
+
+const past = (h, m, s) =>{
+    // Calculate the total number of milliseconds elapsed since midnight
+    return (h * 60 * 60 + m * 60 + s) * 1000;
+}
+
+//const result = past(1, 1, 1);
+//console.log(result)
+
+// *************************************************************************************
+

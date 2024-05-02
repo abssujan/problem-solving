@@ -54,3 +54,14 @@ const past = (h, m, s) =>{
 
 // *************************************************************************************
 
+// 4.
+//Write a function that given the input string name, returns the greeting statement Hello,
+// <name> how are you doing today?
+
+const greeting = name => {
+    // use a template literal
+    return `Hello, ${name} how are you doing today?`
+}
+
+//const result = greeting('Ajmain')
+//console.log(result)
